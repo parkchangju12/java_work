@@ -1,4 +1,4 @@
-package java문제풀이;
+package java문제풀이1;
 
 import java.util.Scanner;
 public class Chapter1 {
