@@ -20,7 +20,7 @@ class B2 extends A {
 }
 
 	
-public class PolymorphisDemo1 {
+public class PolymorphismDemo1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
