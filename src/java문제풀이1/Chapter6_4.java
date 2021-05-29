@@ -17,17 +17,34 @@ public class Chapter6_4 {
 			if (a[i] > max) {
 				max = a[i];
 			}
-			System.out.println(a[i]);
-		}
-		System.out.println(max);
-		for (int j=0; j<max; j++) {
-			if (a[j]<max) {
-				System.out.print(" ");
+			if (i==a.length-1) {
+				for (int b=0; b<max; b++) {
+					for(int j=0; j<a.length; j++) {
+						if (a[j]<max) {
+							System.out.print(" "+" ");
+							a[j]+=1;
+						}
+						else if (a[j]>=max) {
+							System.out.print("*"+" ");
+						}
+						if (j==a.length-1) {
+							System.out.println();
+						}
+						
+					}
+					if(b==max-1) {
+						System.out.print("------------");
+						System.out.println();
+						for(int q=0; q<a.length; q++) {
+							System.out.print(q+" ");
+						}
+					}
+					
+				}
 			}
-			else if (a[j]==max){
-				System.out.print("*");
-			}
 		}
+
+		sc.close();
 		
 	}
 
