@@ -46,6 +46,8 @@ public class Chapter6_4 {
 
 		sc.close();
 		
+		
+		
 	}
 
 }
