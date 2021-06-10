@@ -14,13 +14,14 @@ public class Chapter6_11 {
 			a[i] = rand.nextInt(10)+1;
 			for (int j=0; j<i; j++) {
 					if(a[i]==a[j]) {
-						i--;
+						i-=1;
 					}
 				}
 			}
 		for (int i=0; i<num; i++) {
 			System.out.println("a["+i+"] = "+a[i]);
 		}
+		sc.close();
 
 		
 		
