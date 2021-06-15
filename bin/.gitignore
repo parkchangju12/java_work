@@ -1,3 +1,15 @@
+/Inheritance/
+/Otherpackage/
+/Samepackage/
+/abstractclass/
+/accessmodifier/
+/array/
+/classinstance/
+/classpath/
+/compare/
+/condition/
+/conditionaloperator/
+/constant/
 /constructor/
 /example1/
 /example2/
@@ -9,6 +21,7 @@
 /java문제풀이1/
 /loop/
 /method/
+/module-info.class
 /object/
 /operator/
 /org/
